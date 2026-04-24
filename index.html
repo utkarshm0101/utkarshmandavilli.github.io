@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Mandavilli - PCB Design Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Utkarsh Mandavilli</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>PCB Design Engineer</h1>
+                <p>Specializing in Hardware Design, Signal Integrity, and Power Delivery</p>
+                <div class="hero-links">
+                    <a href="https://www.linkedin.com/in/utkarsh-mandavilli/" target="_blank" class="btn btn-primary">LinkedIn</a>
+                    <a href="https://github.com/utkarshm0101" target="_blank" class="btn btn-secondary">GitHub</a>
+                    <a href="mailto:utkarshm0101@gmail.com" class="btn btn-secondary">Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a PCB design engineer with expertise in hardware design, signal integrity, and power delivery analysis. Proficient in Altium Designer, I have hands-on experience designing custom PCBs, analyzing circuit behavior, and optimizing layouts for performance. My work spans from fundamental circuit analysis to advanced board design, including high-speed digital circuits and microcontroller-based systems.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Laboratory Projects & Custom PCB Boards</h2>
+            
+            <!-- Labs -->
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Lab 1: 555 Timer Comparison</h3>
+                    <p>Comparative analysis of two different 555 timer configurations using the same circuit. Learned to use Keysight Oscilloscopes for signal measurement and analysis.</p>
+                    <div class="project-links">
+                        <a href="Utkarsh%20-%20Lab%201%20-%20ECEN5730.pdf" target="_blank" class="link-btn">View Report</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Lab 5: Voltage Droop & Decoupling Capacitors</h3>
+                    <p>Built a slammer circuit to create switching noise and induce voltage droop on power rails. Studied the effectiveness of decoupling capacitors in mitigating these effects and analyzed the impact of capacitor placement relative to components and power rails.</p>
+                    <div class="project-links">
+                        <a href="Utkarsh%20-%20Lab%205%20-%20ECEN5730.pdf" target="_blank" class="link-btn">View Report</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Lab 9: Cross Talk & Return Planes</h3>
+                    <p>Investigation of how aggressor signals create noise in victim signal return paths. Demonstrated the critical importance of maintaining continuous return planes for signal integrity in high-speed designs.</p>
+                    <div class="project-links">
+                        <a href="Lab%209%20Report.pdf" target="_blank" class="link-btn">View Report</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Lab 11 & 12: Trace Resistance & Current Limitations</h3>
+                    <p>Measurement of trace resistances using multiple methods to determine the maximum current carrying capacity of PCB traces. Critical for power distribution and thermal management.</p>
+                    <div class="project-links">
+                        <a href="Lab%2011%2612%20Report.pdf" target="_blank" class="link-btn">View Report</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Lab 18: Inrush Currents</h3>
+                    <p>Measurement of inrush currents using differential probing techniques. Analysis of how various load conditions impact current draw from power supplies, essential for power supply design and protection.</p>
+                    <div class="project-links">
+                        <a href="Lab%2018%20Report.pdf" target="_blank" class="link-btn">View Report</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Lab 21: Voltages from Devices Under Test</h3>
+                    <p>Tracking of Thevenin resistance and voltage characteristics of various power sources as load current increases. Important for understanding power source behavior and load regulation.</p>
+                    <div class="project-links">
+                        <a href="Lab%2021%20Report.pdf" target="_blank" class="link-btn">View Report</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Custom PCB Boards -->
+            <h2 style="margin-top: 60px;">Custom PCB Designs</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Board 1: Altium Fundamentals</h3>
+                    <p>Introductory PCB design project developed in Altium Designer to build foundational skills. Includes hands-on experience with surface-mount component (SMC) soldering and layout best practices. A practical stepping stone for more complex designs.</p>
+                    <div class="project-links">
+                        <a href="Utkarsh%20-%20Board%201%20-%20ECEN%205730.pdf" target="_blank" class="link-btn">View Design</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Board 2: Layout Practices Comparison</h3>
+                    <p>Advanced board design featuring a mirrored 555 timer circuit configured to compare good versus bad layout practices. Demonstrates how PCB layout decisions directly impact circuit performance, signal integrity, and noise immunity. Includes measurements across both configurations.</p>
+                    <div class="project-links">
+                        <a href="Utkarsh%20-%20Board%202%20-%20ECEN%205730.pdf" target="_blank" class="link-btn">View Design</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Board 3: Custom Arduino Microcontroller</h3>
+                    <p>High-performance custom microcontroller board built in Altium Designer, surpassing commercially available alternatives. Integrates USB functionality with an ATMEGA microcontroller, featuring optimized power distribution, signal routing, and component placement for reliability and performance.</p>
+                    <div class="project-links">
+                        <a href="Utkarsh%20-%20Board%203%20-%20ECEN%205730.pdf" target="_blank" class="link-btn">View Design</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>PCB Design Tools</h3>
+                    <ul>
+                        <li>Altium Designer (Schematic & Layout)</li>
+                        <li>PCB Layout & Routing</li>
+                        <li>Component Selection & Sourcing</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Signal Integrity & Analysis</h3>
+                    <ul>
+                        <li>Signal Integrity Analysis</li>
+                        <li>Power Delivery Networks</li>
+                        <li>Crosstalk Analysis</li>
+                        <li>Return Path Management</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Measurement & Testing</h3>
+                    <ul>
+                        <li>Keysight Oscilloscope Operation</li>
+                        <li>Differential Probing Techniques</li>
+                        <li>Circuit Measurements & Analysis</li>
+                        <li>Power Supply Characterization</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Hardware Design</h3>
+                    <ul>
+                        <li>Analog & Digital Circuits</li>
+                        <li>Microcontroller Integration</li>
+                        <li>USB Implementation</li>
+                        <li>Power Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:utkarshm0101@gmail.com">utkarshm0101@gmail.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/utkarsh-mandavilli/" target="_blank">linkedin.com/in/utkarsh-mandavilli</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/utkarshm0101" target="_blank">github.com/utkarshm0101</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Utkarsh Mandavilli. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
